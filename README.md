@@ -4,7 +4,6 @@
 ### 🚀 **Getting Started**
 
 ```sh
-Fork the repo
 git clone https://github.com/ossrndc/Botimus_Prime .
 npm install
 npm run dev
@@ -21,7 +20,7 @@ npm run dev
 <h2 align="center"><b>Contributors 📊 </b></h2>
 
 <p align="center">
-<a href="https://github.com/firtysh/mlody/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ossrndc/Botimus_Prime" />
+<a href="https://github.com/ossrndc/OSS_Website/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=ossrndc/OSS_Website" />
 </a>
 </p>
