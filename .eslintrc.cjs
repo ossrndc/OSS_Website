@@ -1,4 +1,4 @@
-export default config = {
+module.exports = {
   env: {
     browser: true,
     es2020: true
@@ -10,8 +10,15 @@ export default config = {
     'plugin:react-hooks/recommended'
   ],
   parserOptions: {
+    babelOptions: {
+      presets: ['@babel/preset-react']
+    },
     ecmaVersion: 'latest',
-    sourceType: 'module'
+    sourceType: 'module',
+    requireConfigFile: false,
+    ecmaFeatures: {
+      jsx: true
+    }
   },
   settings: {
     react: {
