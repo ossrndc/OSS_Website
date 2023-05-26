@@ -1,4 +1,5 @@
 # OSS_Website
+
 ### Vite 🤝 React Project
 
 ### 🚀 **Getting Started**
@@ -8,10 +9,12 @@ git clone https://github.com/ossrndc/Botimus_Prime .
 npm install
 npm run dev
 ```
+
 ### 🤝 Contributing
-1. [Fork the repository](https://github.com/ossrndc/OSS_Website/fork "Fork the repository")
+
+1. [Fork the repository](https://github.com/ossrndc/OSS_Website/fork 'Fork the repository')
 2. Clone your fork : `https://github.com/your-username/OSS_Website.git`
-3. Create your feature branch: ` git checkout -b my-new-feature `
+3. Create your feature branch: `git checkout -b my-new-feature`
 4. Stage changes `git add .`
 5. Commit your changes: `git commit -m "your commit message"`
 6. Push to the branch: `git push origin my-new-feature`

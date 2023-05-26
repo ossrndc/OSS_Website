@@ -29,7 +29,12 @@
 
 .contactUs {
   margin-left: auto;
+  width: 13%;
   margin-right: 0;
   text-align: center;
   font-size: 1.1rem;
+  color: #fff;
+  padding: 1rem 1rem;
+  background-color: black;
+  border: 1px solid #000000;
 }
