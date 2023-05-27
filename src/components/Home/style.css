@@ -9,6 +9,8 @@
   align-items: center;
   justify-content: space-between;
   padding: 1rem;
+  position: relative;
+  z-index: 1;
 }
 .link_logos {
   display: flex;
@@ -23,4 +25,10 @@
 .swipeUp {
   margin-right: 2rem;
   padding: 1rem;
+}
+
+.ellipse {
+  position: absolute;
+  left: 0px;
+  top: 2.68px;
 }
