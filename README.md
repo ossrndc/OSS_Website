@@ -5,7 +5,7 @@
 ### 🚀 **Getting Started**
 
 ```sh
-git clone https://github.com/ossrndc/Botimus_Prime .
+git clone https://github.com/ossrndc/OSS_Website .
 npm install
 npm run dev
 ```
