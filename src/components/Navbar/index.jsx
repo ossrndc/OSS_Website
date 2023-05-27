@@ -11,7 +11,7 @@ export default function Navbar() {
         <h3 className="link">Projects</h3>
         <h3 className="link">Events</h3>
         <h3 className="link">About Us</h3>
-        <h3 className="link">Team</h3>
+        <h3 className="link">Our Team</h3>
       </div>
       <div className="contactUs">
         <h3>Contact Us</h3>
