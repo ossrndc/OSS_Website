@@ -29,7 +29,7 @@ export default function Home() {
         </div>
       </div>
       <div className="ellipse">
-        <img src={Ellipse} alt="Ellipse" height={1215} width={2200} />
+        <img src={Ellipse} alt="Ellipse" height={1215} width={2144} />
       </div>
     </div>
   );

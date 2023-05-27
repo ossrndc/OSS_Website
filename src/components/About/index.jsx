@@ -5,7 +5,7 @@ import './style.css';
 export default function About() {
   return (
     <div className="about">
-      <img src={AboutImg} alt="About" width={2200} height={693} />
+      <img src={AboutImg} alt="About" width={2144} height={693} />
       <div className="about-content">
         <img
           src={AboutBlock}
