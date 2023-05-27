@@ -1,0 +1,49 @@
+.domains {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+}
+.domain-img {
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+.domains-content {
+  position: absolute;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.domains-title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  padding: 2rem 0;
+}
+.main-domains {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.domains-elem {
+  padding: 1rem 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.domains-elem-text {
+  padding: 1rem;
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 33px;
+}
