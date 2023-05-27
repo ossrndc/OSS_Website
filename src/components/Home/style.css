@@ -1,0 +1,35 @@
+.home {
+  display: flex;
+  flex-direction: column;
+}
+.home_content {
+  width: 100%;
+  height: 50rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  position: relative;
+  z-index: 1;
+}
+.link_logos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 2rem;
+  padding: 2rem;
+}
+.logo {
+  padding: 1rem;
+}
+.swipeUp {
+  margin-right: 2rem;
+  padding: 1rem;
+}
+
+.ellipse {
+  position: absolute;
+  left: 0px;
+  top: -20.75px;
+}
