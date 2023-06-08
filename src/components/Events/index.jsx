@@ -1,6 +1,7 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import './styles.css';
 
+/* eslint-disable react/prop-types */
 const Event = ({ events }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -16,13 +17,25 @@ const Event = ({ events }) => {
     <div className="event-container">
       <div className="view-all-button">View All</div>
       <h2 className="event-title">Our Events</h2>
-      <p className='event-sub-title'>Event Wrapup and Highlights</p>
+      <p className="event-sub-title">Event Wrapup and Highlights</p>
       <div className="slider-container">
-        <div className="slider-track" style={{ transform: `translateX(-${currentIndex * 33.33}%)` }}>
+        <div
+          className="slider-track"
+          style={{ transform: `translateX(-${currentIndex * 33.33}%)` }}
+        >
           {events.map((event, index) => (
-            <div className={`card-container ${index === currentIndex ? 'active' : ''}`} key={event.id}>
+            <div
+              className={`card-container ${
+                index === currentIndex ? 'active' : ''
+              }`}
+              key={event.id}
+            >
               <div className="card-image-container">
-                <img className="card-image" src={event.image} alt={`Event ${event.id}`} />
+                <img
+                  className="card-image"
+                  src={event.image}
+                  alt={`Event ${event.id}`}
+                />
               </div>
               <div className="card-content">
                 <p className="event-type">{event.type}</p>
@@ -34,18 +47,18 @@ const Event = ({ events }) => {
         </div>
       </div>
       <div className="radio-buttons">
-          {events.map((event, index) => (
-            <label key={event.id}>
-              <input
-                type="radio"
-                name="event-radio"
-                value={index}
-                checked={index === currentIndex}
-                onChange={() => setCurrentIndex(index)}
-              />
-              <span className="radio-label" />
-            </label>
-          ))}
+        {events.map((event, index) => (
+          <label key={event.id}>
+            <input
+              type="radio"
+              name="event-radio"
+              value={index}
+              checked={index === currentIndex}
+              onChange={() => setCurrentIndex(index)}
+            />
+            <span className="radio-label" />
+          </label>
+        ))}
       </div>
       <div className="slider-buttons">
         <button className="slider-btn prev " onClick={handlePrevious}>

@@ -189,8 +189,7 @@
   .view-all-button {
     display: none;
   }
- 
-  
+
   .card-container {
     flex: 0 0 300px; /* Set the width of the cards to 450px */
     position: relative;
@@ -200,13 +199,12 @@
     background-color: #fff;
     margin-right: 40px; /* Add margin between the cards */
   }
-  
+
   .card-container:last-child {
     margin-right: 0; /* Remove margin for the last card */
   }
 
   .slider-buttons {
-    
     bottom: -100px;
     left: 0;
     right: 0;
@@ -223,8 +221,8 @@
   .slider-btn.next {
     margin-left: 10px;
   }
-  
-.radio-buttons {
-  display: none;
-}
+
+  .radio-buttons {
+    display: none;
+  }
 }
