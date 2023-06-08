@@ -63,7 +63,7 @@
     width: 2144;
   }
 }
-@media screen and (max-width: 1800px) {
+@media screen and (max-width: 2140px) {
   .ellipse {
     display: none;
   }
