@@ -34,3 +34,37 @@
   left: 0px;
   top: -20.75px;
 }
+
+@media screen and (max-width: 768px) {
+  .home_content {
+    flex-direction: column;
+    height: 100%;
+    padding: 0;
+  }
+  .link_logos {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+  }
+  .logo {
+    padding: 2rem;
+  }
+  .swipeUp {
+    margin: 0;
+    padding: 0;
+    transform: rotate(90deg);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .ellipse {
+    height: 1215;
+    width: 2144;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .ellipse {
+    display: none;
+  }
+}
