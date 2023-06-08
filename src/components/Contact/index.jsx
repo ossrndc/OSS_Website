@@ -7,7 +7,7 @@ import LinkedIn from '../../assets/Linkedin.svg';
 import './style.css';
 export default function Contact() {
   return (
-    <div className="contactUsFooter">
+    <div className="contactUsFooter" id="contactUs">
       <div className="contactUsTitle">
         <h1>Contact Us</h1>
         <p>Feel free to contact us for any queries</p>

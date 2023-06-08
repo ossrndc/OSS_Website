@@ -35,15 +35,55 @@
   justify-content: space-between;
 }
 .domains-elem {
-  padding: 1rem 6rem;
+  padding: 1rem 4rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
 }
+.domains-elem img {
+  width: 20rem;
+  height: 20rem;
+}
+.domain-img {
+  width: 100%;
+  height: 50rem;
+  object-fit: cover;
+}
+
 .domains-elem-text {
   padding: 1rem;
   font-size: 1.5rem;
-  font-weight: 300;
+  font-weight: 700;
   line-height: 33px;
+}
+
+@media screen and (max-width: 1840px) {
+  .main-domains {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .domains-elem {
+    padding: 1rem 5rem;
+  }
+
+  .domains-elem img {
+    width: 10rem;
+    height: 10rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main-domains {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .domains-elem {
+    padding: 1rem 2rem;
+  }
+
+  .domains-elem img {
+    width: 10rem;
+    height: 10rem;
+  }
 }

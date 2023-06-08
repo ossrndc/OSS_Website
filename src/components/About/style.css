@@ -1,5 +1,4 @@
 .about {
-  z-index: 1;
   width: 100%;
   position: relative;
   display: flex;
@@ -10,7 +9,7 @@
 
 .about-img {
   width: 100%;
-  height: auto;
+  height: 30rem;
   max-height: 400px;
 }
 
@@ -62,5 +61,8 @@
   .about-text-p {
     margin: 0 1rem;
     font-size: 1rem;
+  }
+  .about-img {
+    height: 20rem;
   }
 }
