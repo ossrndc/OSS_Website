@@ -16,7 +16,7 @@ export default function Domains() {
             <img src={Design} alt="Design" />
             <h3 className="domains-elem-text">Designing</h3>
           </div>
-          <div className="domains-elem">
+          <div className="domains-elem ">
             <img src={Web} alt="Web" />
             <h3 className="domains-elem-text">Web Development</h3>
           </div>
