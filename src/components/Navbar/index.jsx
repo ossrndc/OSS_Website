@@ -4,8 +4,8 @@ import './style.css';
 export default function Navbar() {
   return (
     <div className="navbar">
-      <div className="logo">
-        <img src={logo} alt="logo" />
+      <div className="top_logo">
+        <img src={logo} alt="top_logo" />
       </div>
       <div className="links">
         <h3 className="link">Projects</h3>
