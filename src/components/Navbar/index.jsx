@@ -8,14 +8,27 @@ export default function Navbar() {
         <img src={logo} alt="top_logo" />
       </div>
       <div className="links">
-        <h3 className="link">Projects</h3>
-        <h3 className="link">Events</h3>
-        <h3 className="link">About Us</h3>
-        <h3 className="link">Our Team</h3>
+        <a href="#events" className="section-link">
+          <h3 className="link">Events</h3>
+        </a>
+        <a href="#about" className="section-link">
+          <h3 className="link">About Us</h3>
+        </a>
+        <a href="#domains" className="section-link">
+          <h3 className="link">Domains</h3>
+        </a>
+        <a href="" className="section-link">
+          <h3 className="link">Projects</h3>
+        </a>
+        <a href="" className="section-link">
+          <h3 className="link">Our Team</h3>
+        </a>
       </div>
-      <div className="contactUs">
-        <h3>Contact Us</h3>
-      </div>
+      <a href="#contactUs" className="contactUs">
+        <div className="contactUs">
+          <h3>Contact Us</h3>
+        </div>
+      </a>
     </div>
   );
 }

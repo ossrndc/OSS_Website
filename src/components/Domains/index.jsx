@@ -7,7 +7,7 @@ import './style.css';
 
 export default function Domains() {
   return (
-    <div className="domains">
+    <div className="domains" id="domains">
       <img src={DomainsImg} className="domain-img" alt="Domains" />
       <div className="domains-content">
         <div className="domains-title">Our Domains</div>

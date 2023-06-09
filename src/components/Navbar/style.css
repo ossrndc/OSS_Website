@@ -37,6 +37,12 @@
   padding: 0.5rem 1rem;
   background-color: black;
   border: 1px solid #000000;
+  text-decoration: none;
+}
+
+.section-link {
+  color: #000000;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 768px) {
