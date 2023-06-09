@@ -15,12 +15,11 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  height: 100%;
   font-size: 1.2rem;
 }
 
 .link {
-  padding: 1rem;
+  padding: 0 1rem;
 }
 
 .top_logo {
@@ -45,7 +44,7 @@
   text-decoration: none;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 968px) {
   .navbar {
     flex-direction: column;
     justify-content: center;
@@ -67,12 +66,14 @@
   }
 
   .contactUs {
-    margin: 1rem 0;
     width: 100%;
     padding: 0.5rem;
   }
   .top_logo {
-    margin: 0;
+    margin: auto;
+    margin-bottom: 0rem;
+    width: 7.5rem;
+    height: 10rem;
   }
 }
 @media screen and (min-width: 1200) {
