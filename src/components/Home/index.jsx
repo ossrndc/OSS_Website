@@ -4,7 +4,6 @@ import Twitter from '../../assets/Twitter.png';
 import oss_big_logo from '../../assets/oss_big_logo.png';
 import SwipeUp from '../../assets/Swipe_Up.svg';
 import './style.css';
-import Ellipse from '../../assets/Ellipse.png';
 
 export default function Home() {
   return (
@@ -25,9 +24,6 @@ export default function Home() {
         <div className="swipeUp">
           <img src={SwipeUp} alt="Swipe Up" className="swipe_up" />
         </div>
-      </div>
-      <div className="ellipse">
-        <img src={Ellipse} alt="Ellipse" height={1215} width={2144} />
       </div>
     </div>
   );

@@ -43,12 +43,6 @@
   object-fit: cover;
 }
 
-.ellipse {
-  position: absolute;
-  left: 0px;
-  top: -20.75px;
-}
-
 @media screen and (max-width: 768px) {
   .home_content {
     flex-direction: column;
@@ -72,17 +66,5 @@
   .oss_logo {
     flex: 1;
     margin: 2rem 0;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .ellipse {
-    height: 1215;
-    width: 2144;
-  }
-}
-@media screen and (max-width: 2140px) {
-  .ellipse {
-    display: none;
   }
 }
