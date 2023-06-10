@@ -4,6 +4,7 @@ import About from './components/About';
 import Events from './components/Events';
 import Domains from './components/Domains';
 import Contact from './components/Contact';
+import Navbar from './components/Navbar';
 import one from './assets/events/1.jpg';
 import two from './assets/events/2.jpg';
 import three from './assets/events/3.png';
@@ -91,6 +92,7 @@ export default function App() {
 
   return (
     <div className="App">
+      <Navbar />
       <Home />
       <About />
       <Events events={events} />

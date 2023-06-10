@@ -1,4 +1,3 @@
-import Navbar from '../Navbar';
 import Instagram from '../../assets/Instagram.png';
 import Linkedin from '../../assets/Linkedin.png';
 import Twitter from '../../assets/Twitter.png';
@@ -10,7 +9,6 @@ import Ellipse from '../../assets/Ellipse.png';
 export default function Home() {
   return (
     <div className="home">
-      <Navbar />
       <div className="home_content">
         <div className="link_logos">
           <a href="https://www.instagram.com/team__oss/">

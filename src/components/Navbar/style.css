@@ -2,6 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: row;
   width: 100%;
   height: 8rem;
   margin-top: 1rem;
@@ -20,6 +21,25 @@
 
 .link {
   padding: 0 1rem;
+  margin: 0.5rem 0;
+  position: relative;
+}
+
+.link::before {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: transparent;
+  transform: scaleX(0);
+  transition: transform 0.3s ease-out, background-color 0.3s ease-out;
+}
+
+.link:hover::before {
+  transform: scaleX(1);
+  background-color: #000000;
 }
 
 .top_logo {
@@ -33,15 +53,39 @@
   text-align: center;
   font-size: 1.1rem;
   color: #fff;
-  padding: 0.5rem 1rem;
+  padding: 1rem 1rem;
   background-color: black;
   border: 1px solid #000000;
+  text-decoration: none;
+}
+
+.contactUsLink {
+  color: #fff;
   text-decoration: none;
 }
 
 .section-link {
   color: #000000;
   text-decoration: none;
+}
+
+.navbarMenu {
+  width: 65%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  transition: height 0.3s ease-out;
+  height: 0;
+  overflow: hidden;
+}
+
+.show-menu {
+  height: auto;
+}
+
+.hamburger {
+  display: none;
 }
 
 @media screen and (max-width: 968px) {
@@ -58,29 +102,67 @@
     align-items: center;
     justify-content: center;
     height: auto;
-    margin-top: 1rem;
   }
 
   .link {
-    padding: 0.5rem;
+    padding: 0.3rem;
   }
 
   .contactUs {
     width: 100%;
-    padding: 0.5rem;
+    padding: 1rem;
   }
+
   .top_logo {
     margin: auto;
     margin-bottom: 0rem;
     width: 7.5rem;
     height: 10rem;
   }
-}
-@media screen and (min-width: 1200) {
-  .top_logo {
-    margin-right: auto;
-    margin-bottom: 1rem;
-    width: 10rem;
-    height: 10rem;
+
+  .navbarMenu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    transition: height 0.3s ease-out;
+    height: 0;
+    overflow: hidden;
+  }
+
+  .show-menu {
+    height: auto;
+  }
+
+  .hamburger {
+    display: block;
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    z-index: 1;
+    cursor: pointer;
+    transition: transform 0.3s ease-out;
+  }
+
+  .hamburgerLine {
+    width: 3rem;
+    height: 0.3rem;
+    background-color: #000000;
+    margin: 0.5rem;
+    border-radius: 0.5rem;
+    transition: transform 0.3s ease-out, opacity 0.3s ease-out;
+  }
+
+  .hamburger.active .hamburgerLine:nth-child(1) {
+    transform: rotate(45deg) translate(6px, 6px);
+  }
+
+  .hamburger.active .hamburgerLine:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .hamburgerLine:nth-child(3) {
+    transform: rotate(-45deg) translate(8px, -8px);
   }
 }
