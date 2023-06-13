@@ -16,7 +16,8 @@
   "dependencies": {
     "node": "^20.2.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-responsive-carousel": "^3.2.23"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.21.8",

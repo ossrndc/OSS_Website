@@ -15,8 +15,9 @@ import seven from './assets/events/7.png';
 import nine from './assets/events/9.jpg';
 import ten from './assets/events/10.jpg';
 import eleven from './assets/events/11.png';
+import  {Teams}  from './components/Teams/index';
 
-export default function App() {
+function App(){
   const events = [
     {
       id: '1',
@@ -97,7 +98,9 @@ export default function App() {
       <About />
       <Events events={events} />
       <Domains />
+      <Teams />
       <Contact />
     </div>
   );
 }
+export default App;
